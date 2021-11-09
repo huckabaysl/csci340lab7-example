@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{3FEA6A01-F604-47D1-8DD7-6967C7B62EE7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie/Pages/Movies/Edit.cshtml.cs">
     <Files>
-      <File FileName="RazorPagesMovie/Models/Movie.cs" Line="16" Column="2" />
+      <File FileName="RazorPagesMovie/Models/Movie.cs" Line="16" Column="1" />
       <File FileName="RazorPagesMovie/Startup.cs" Line="1" Column="1" />
       <File FileName="RazorPagesMovie/Pages/Movies/Create.cshtml" Line="1" Column="1" />
       <File FileName="RazorPagesMovie/Data/RazorPagesMovieContext.cs" Line="18" Column="6" />
@@ -10,19 +10,25 @@
       <File FileName="RazorPagesMovie/Pages/Shared/_Layout.cshtml" Line="14" Column="77" />
       <File FileName="RazorPagesMovie/Pages/_ViewStart.cshtml" Line="1" Column="1" />
       <File FileName="RazorPagesMovie/Models/SeedData.cs" Line="60" Column="2" />
-      <File FileName="RazorPagesMovie/Program.cs" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Program.cs" Line="41" Column="2" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Details.cshtml" Line="6" Column="17" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Details.cshtml.cs" Line="24" Column="61" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Edit.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RazorPagesMovie" expanded="True">
             <Node name="RazorPagesMovie" expanded="True">
-              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Movies" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Movies" expanded="True">
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True">
+                    <Node name="Edit.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +39,9 @@
   <MonoDevelop.Ide.ItemProperties.RazorPagesMovie PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
