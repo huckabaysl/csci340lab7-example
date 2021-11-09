@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{3FEA6A01-F604-47D1-8DD7-6967C7B62EE7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie/Data/RazorPagesMovieContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie/Pages/Shared/_Layout.cshtml">
     <Files>
       <File FileName="RazorPagesMovie/Models/Movie.cs" Line="16" Column="2" />
       <File FileName="RazorPagesMovie/Startup.cs" Line="1" Column="1" />
       <File FileName="RazorPagesMovie/Pages/Movies/Create.cshtml" Line="1" Column="1" />
-      <File FileName="RazorPagesMovie/Data/RazorPagesMovieContext.cs" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Data/RazorPagesMovieContext.cs" Line="18" Column="6" />
+      <File FileName="RazorPagesMovie/appsettings.json" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Index.cshtml" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Pages/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RazorPagesMovie" expanded="True">
             <Node name="RazorPagesMovie" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="RazorPagesMovieContext.cs" selected="True" />
-              </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Movies" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
