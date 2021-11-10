@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿#define Rating
+#if Rating
+#region snippet_1 
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using RazorPagesMovie.Data;
 using System;
@@ -36,6 +39,7 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
                         Price = 8.99M
+                        Rating = "G"
                     },
 
                     new Movie
@@ -44,6 +48,7 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1986-2-23"),
                         Genre = "Comedy",
                         Price = 9.99M
+                        Rating = "G"
                     },
 
                     new Movie
@@ -52,6 +57,7 @@ namespace RazorPagesMovie.Models
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Price = 3.99M
+                        Rating = "NA"
                     }
                 );
                 context.SaveChanges();
