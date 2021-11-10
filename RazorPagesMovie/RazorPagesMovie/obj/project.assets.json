@@ -8838,7 +8838,7 @@
       "outputPath": "/Users/samanthahuckabay/Documents/GitHub/csci340lab7/RazorPagesMovie/RazorPagesMovie/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/samanthahuckabay/.config/NuGet/NuGet.Config"
+        "/Users/samanthahuckabay/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
