@@ -1,7 +1,4 @@
-﻿#define Rating
-#if Rating
-#region snippet_1 
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using RazorPagesMovie.Data;
 using System;
